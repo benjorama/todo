@@ -16,7 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <p>This is /layout.tsx. It contains a React component called RootLayout() which is rendering this page. Neat huh?</p>
+        <p>The RootLayhout() component takes a property called 'children' which are called after this paragraph</p>
+        <br />
+        {children}
+      </body>
     </html>
   )
 }
