@@ -10,7 +10,7 @@ Next, create a `.env` file in the root project directory that has the following 
 POSTGRES_USER=user
 POSTGRES_PASSWORD=password
 POSTGRES_DB=todo
-POSTGRES_HOST=localhost
+POSTGRES_HOST=todo_db_1
 POSTGRES_PORT=5432
 ```
 
