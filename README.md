@@ -10,9 +10,9 @@ Next, create a `.env` file in the root project directory that has the following 
 POSTGRES_USER=user
 POSTGRES_PASSWORD=password
 POSTGRES_DB=todo
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
 ```
-
-Feel free to set the variables to whatever values you'd like, or keep it the same, whatever works best.
 
 Next, spin up the development environment. From the root project directory run the following command:
 
