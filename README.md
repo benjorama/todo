@@ -7,10 +7,12 @@ First, install Docker if you don't have it already.
 Next, create a `.env` file in the root project directory that has the following contents:
 
 ```
+POSTGRES_USER=user
 POSTGRES_PASSWORD=password
+POSTGRES_DB=todo
 ```
 
-Feel free to use whatever value you'd like for `password`, or keep it the same, whatever works best for you.
+Feel free to set the variables to whatever values you'd like, or keep it the same, whatever works best.
 
 Next, spin up the development environment. From the root project directory run the following command:
 
