@@ -38,3 +38,6 @@ next-env.d.ts
 
 # experimental dir
 /app/scratch/
+
+# sqlls config
+.sqllsrc.json
